@@ -36,6 +36,15 @@ body.light{
 --toggle: hsl(230, 22%, 74%) ;
 --card-hover:hsl(227, 47%, 90%) ;
 }
+.attribution { 
+  margin-top: 40px;
+  font-size: 11px;
+  text-align: center; 
+  color: var(--desaturated-text);
+}
+.attribution a {
+ color: var(--main-text-clr); 
+}
 h1,h2{
 color: var(--main-text-clr);
 }
@@ -50,7 +59,7 @@ p{
 }
 body{
   padding: clamp(10px, 20px + 3vw, 3rem);
-  background:linear-gradient(to bottom, var(--top-bg) 200px, var(--main-bg) 200px);
+  background:linear-gradient(to bottom, var(--top-bg) 300px, var(--main-bg) 200px);
   transition: all .3s ease-in-out;
 }
 body.light{
